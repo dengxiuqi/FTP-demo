@@ -6,9 +6,9 @@ import time
 from conf import settings
 
 STATUS_CODE = {
-    250 : "Invalid cmd format, e.g:{'action':'get','filename':'test.py','size':344}",
+    250 : "Invalid cmd format, e.g:{'action':'get','filename':'generator.py','size':344}",
     251 : "Invalid cmd",
-    252 : "Invalid auth data",
+    252 : "Invalid auth Data",
     253 : "Wrong username or password",
     254 : "Passed authenticate",
     255 : "Filename isn't provided by client",
